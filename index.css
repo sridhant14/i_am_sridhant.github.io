@@ -198,6 +198,19 @@ html {
   }
 
 
+.input_side_1{
+    background-color: transparent;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    color: dodgerblue;
+    transition: 1s;
+}
+
+.input_side_1:hover{
+    background-color: dodgerblue;
+    color: floralwhite;
+}
+
 
 
 /* img_resource/jumbo.jpg */
