@@ -479,11 +479,6 @@
       So, J-Query popup an error called NaN [ Not a Number ]
     </div>
 
-  </div>
-
-</section>
-
-
 
 <!-- thanks -->
 
@@ -756,7 +751,7 @@ $("#send_sqrt").click( function(){
      alert("  number values are null 😕 !!!! ")
    }
    else{
-    let answer_hypo = alert( "Square root : " + parseFloat( Math.sqrt( $("#sqrt_num") ) ) )
+    let answer_hypo = alert( "Square root : " + parseFloat( Math.sqrt( $("#sqrt_num").val() ) ) )
    }
 
 } )

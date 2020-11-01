@@ -211,6 +211,40 @@ html {
     color: floralwhite;
 }
 
+.game_title{
+    font-size: 400%;
+    color: blueviolet;
+}
+
+#game_btn{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: brown;
+    color: whitesmoke;
+    transition: 3s;
+    animation: gamebtn 2s infinite;
+}
+
+@keyframes gamebtn{
+
+    0%{
+         background-color: brown;
+         color: whitesmoke;
+    }
+
+    50%{
+        background-color: magenta;
+        color: whitesmoke;
+   }
+
+   100%{
+       background-color: blueviolet;
+       color: whitesmoke;
+}
+
+}
 
 
 /* img_resource/jumbo.jpg */
